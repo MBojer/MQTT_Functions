@@ -1,0 +1,9 @@
+Connected with result code 0
+Traceback (most recent call last):
+  File "./MQTT_Functions.py", line 42, in <module>
+    client.loop_forever(timeout=1.0, max_packets=1, retry_first_connection=False)
+  File "/usr/local/lib/python2.7/dist-packages/paho/mqtt/client.py", line 1481, in loop_forever
+    rc = self.loop(timeout, max_packets)
+  File "/usr/local/lib/python2.7/dist-packages/paho/mqtt/client.py", line 988, in loop
+    socklist = select.select(rlist, wlist, [], timeout)
+KeyboardInterrupt
